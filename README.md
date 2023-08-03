@@ -2,8 +2,6 @@
 
 # Desafio Técnico de Dados da FieldPRO
 
-Bem-vindo ao desafio técnico de dados da FieldPRO!
-
 <h1 align="center"> <img src="https://fieldpro.com.br/wp-content/themes/fieldpro/src/images/logo.png" width=180px></h1>   
 
 <h2>Status do Projeto</h2>
@@ -99,8 +97,32 @@ O códigos notebook estão devidamente comentados para explicar cada etapa da so
 	<td>3.11</td>
 </tr>
 <tr>
+	<td>Jupyter</td>
+	<td>6.4.12</td>
+</tr>	
+<tr>
+	<td>Pandas</td>
+	<td>2.0.4</td>
+</tr>	
+<tr>
 	<td>Matplotlib</td>
 	<td>3.7.2</td>
+</tr>
+<tr>
+	<td>Seaborn</td>
+	<td>0.12.0</td>
+</tr>
+<tr>
+	<td>scikit-learn</td>
+	<td>1.3.0</td>
+</tr>
+<tr>
+	<td>imbalanced-learn</td>
+	<td>0.11.0</td>
+</tr>
+<tr>
+	<td>xgboost</td>
+	<td>1.7.6</td>
 </tr>
 </table>
 
