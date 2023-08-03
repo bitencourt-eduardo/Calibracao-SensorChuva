@@ -71,7 +71,7 @@ As medidas realizadas pelo sensor incluem:
   - 01_trantamento.ipynb
   - 02_analise_exploratória.ipynb
   - 03_normalizacao.ipynb
-  - 04_Balanciamento.ipynb
+  - 04_Balanceamento.ipynb
   - 05_Modelagem.ipynb
 - datasets  _(pasta com os arquivos CSV necessários)_
     - Estacao_Convencial.csv      
@@ -143,7 +143,7 @@ Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestã
    - Condições +40 ºC e - 0ºC
 - Verificar interferência de forças do vento sobre as medidas
  
-<h2>Desenvolvedo por:  </h2>
+<h2>Desenvolvido por:  </h2>
 <div>
 
 ![Linkedin Badge](https://img.shields.io/badge/-Eduardo_Bitencourt-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bitencourt-eduardo/)
