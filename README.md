@@ -102,17 +102,6 @@ Se houver alguma dúvida ou precisar de mais informações, sinta-se à vontade 
 
 # Estrutura do Projeto
 
-|- code/ # Para com Notebooks Jupyter utilizados para solução do desafio
-   |- 01_tratamento.ipynb  # Notebook Jupyter com primeira visualização e tratamento dos dados
-   |- 02_analise_exploratoria.ipynb # Notebook Jupyter com análise exploratória dos dados
-   
-	.ipynb       # Notebook Jupyter com a solução do desafio
-|- datasets/               # Pasta com os arquivos CSV necessários
-   |- Estacao_convencional.csv
-   |- Sensor_FieldPRO.csv
-   |- ...
-|- README.md           # Este arquivo README com informações sobre o projeto
-
 
 
 
