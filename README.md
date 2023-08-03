@@ -135,7 +135,15 @@ Os códigos estão divididos em estapas para sequênciais numeradas e está devi
 Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão de melhoria.
 
 
-<h3>Desenvolvedo por:  </h3>
+
+# Considerações para análises futuras
+
+- Realizar conjunto de testes para diferentes condições
+   -  Elevadas altitudes
+   - Condições +40 ºC e - 0ºC
+- Verificar interferência de forças do vento sobre as medidas
+ 
+<h2>Desenvolvedo por:  </h2>
 <div>
 
 ![Linkedin Badge](https://img.shields.io/badge/-Eduardo_Bitencourt-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bitencourt-eduardo/)
