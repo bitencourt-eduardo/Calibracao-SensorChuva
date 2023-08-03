@@ -1,6 +1,8 @@
 # Calibracao-SensorChuva
 
-# Desafio FieldPRO
+# Desafio Técnico de Dados da FieldPRO
+
+Bem-vindo ao desafio técnico de dados da FieldPRO!
 
 <h1 align="center"> <img src="https://fieldpro.com.br/wp-content/themes/fieldpro/src/images/logo.png" width=180px></h1>   
 
@@ -18,8 +20,67 @@
  
 <!--te-->
  
- # 🧾Sobre
+ # 🧾 Objetivo
+
+O objetivo deste desafio é construir um modelo de calibração de um sensor de chuva baseado em impactos mecânicos. O sistema de medição de chuva funciona por meio de uma placa eletrônica com um piezoelétrico, um acumulador de carga e um sensor de temperatura. Os dados são transmitidos de hora em hora.
+
  
+## Modelagem
+
+A tarefa é construir um modelo de calibração para o sensor de chuva com base nas informações disponíveis. É importante considerar que o impacto das gotas de chuva gera vibrações no piezoelétrico, induzindo uma corrente elétrica, que é acumulada ao longo do tempo e gera uma queda na carga do acumulador.
+
+O número de resets da placa também pode afetar o comportamento do acumulador de carga, portanto, pode ser relevante incluir essa informação no modelo.
+
+
+## Arquivos de Dados
+
+Os arquivos de dados `Sensor_FieldPRO.csv` e `Estacao_Convencional.csv` estão disponíveis para a análise.
+
+## Descrição dos Dados
+
+Os dados disponíveis para este desafio estão no arquivo `Sensor_FieldPRO.csv`. Além disso, foram utilizadas medidas de uma estação meteorológica próxima, disponíveis no arquivo `Estacao_Convencional.csv`. Ambos estão armazenados na pasta _datasets_
+
+### Variáveis do arquivo Sensor_FieldPRO.csv
+
+As medidas realizadas pelo sensor incluem:
+
+- `piezo_charge`: Carga medida no acumulador.
+- `piezo_temperature`: Temperatura da placa.
+- `num_of_resets`: Número total de resets da placa desde que foi ligada pela primeira vez.
+- `air_temperature_100`: Temperatura do ar externo.
+- `air_humidity_100`: Umidade relativa do ar externo.
+- `atm_pressure_main`: Pressão atmosférica.
+- `Datetime – utc`: Date e hora em pradão ISO-8601.
+
+
+### Variáveis do arquivo Estacao_Convencional.csv
+
+As medidas realizadas pelo sensor incluem:
+
+- `Data`: Data de transmissão.
+- `Hora (Brasília)`: Hora de transmissão.
+- `chuva`: Esta é a variável alvo que queremos prever..
+
+
+## Instruções de Execução
+
+Para executar o código relacionado ao desafio, siga as instruções abaixo:
+
+1. Clone este repositório para sua máquina local.
+2. Certifique-se de ter as dependências e bibliotecas necessárias instaladas.
+3. Execute o script de calibração e análise de dados.
+4. Analise os resultados e ajuste o modelo conforme necessário.
+
+## Conclusão
+
+Este é um desafio empolgante de calibração de um sensor de chuva. Lembre-se de documentar suas decisões e abordagens ao longo do processo de modelagem. Boa sorte e divirta-se!
+
+**Nota:** Para informações adicionais sobre os dados e o desafio, consulte o conteúdo completo do documento fornecido.
+
+Se houver alguma dúvida ou precisar de mais informações, sinta-se à vontade para entrar em contato.
+
+*Esse é apenas um exemplo de arquivo README em formato Markdown. Lembre-se de adaptar o conteúdo conforme necessário para o seu projeto ou desafio específico.*
+
  Desenvolvimento de API de simulação de banco, com operações bancárias do dia a dia, obedencendo algumas entregas mínimas como:
   
   
@@ -39,19 +100,6 @@
 * Acesse a pasta do projeto no terminal/cmd e vá para a pasta do Divas Bank,
 * Execute a aplicação: o servidor entra pela porta 8080.
 
-
-# Dados
-
-
-1. **air_humidity_100**: Umidade do ar.
-
-2. **atm_pressure_main**: Pressão atmosférica principal.
-
-3. **piezo_charge**: Carga do acumuludar.
-
-4. **piezo_temperature**: Temperatura da placa.
-
-5. **chuva**: Esta é a variável alvo que queremos prever.
 
 
 
