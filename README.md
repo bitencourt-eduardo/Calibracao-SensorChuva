@@ -1,5 +1,3 @@
-# Calibracao-SensorChuva
-
 # Desafio Técnico de Dados da FieldPRO
 
 <h1 align="center"> <img src="https://fieldpro.com.br/wp-content/themes/fieldpro/src/images/logo.png" width=180px></h1>   
