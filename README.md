@@ -100,6 +100,18 @@ Se houver alguma dúvida ou precisar de mais informações, sinta-se à vontade 
 * Acesse a pasta do projeto no terminal/cmd e vá para a pasta do Divas Bank,
 * Execute a aplicação: o servidor entra pela porta 8080.
 
+# Estrutura do Projeto
+
+|- code/ # Para com Notebooks Jupyter utilizados para solução do desafio
+   |- 01_tratamento.ipynb  # Notebook Jupyter com primeira visualização e tratamento dos dados
+   |- 02_analise_exploratoria.ipynb # Notebook Jupyter com análise exploratória dos dados
+   
+	.ipynb       # Notebook Jupyter com a solução do desafio
+|- datasets/               # Pasta com os arquivos CSV necessários
+   |- Estacao_convencional.csv
+   |- Sensor_FieldPRO.csv
+   |- ...
+|- README.md           # Este arquivo README com informações sobre o projeto
 
 
 
@@ -121,6 +133,17 @@ Se houver alguma dúvida ou precisar de mais informações, sinta-se à vontade 
 	<td>3.7.2</td>
 </tr>
 </table>
+
+
+# Considerações Adicionais
+
+Fiz uso da biblioteca pandas para carregar e manipular os dados dos arquivos CSV.
+Utilizei scikit-learn para criar o pipeline de transformação de dados e treinar o(s) modelo(s) necessário(s).
+Incluí visualizações e análises preliminares para melhor compreensão dos dados.
+Os códigos estão divididos em estapas para sequênciais numeradas e está devidamente comentado para explicar cada etapa da solução abordada.
+
+Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão de melhoria.
+
 
 <h3>Desenvolvedo por:  </h3>
 <div>
